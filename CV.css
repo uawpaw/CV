@@ -1,0 +1,272 @@
+header{
+    background-color: #222831 ;
+    color: #EEEEEE;
+
+}
+
+body{
+    background-color: #222831 ;
+    color: #EEEEEE;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h1{
+    font-size: 200px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0;
+    text-align: center;
+    padding-top: 100px;
+
+
+}
+
+
+
+
+/*****************************************************DIVS*****************************************/
+.pfp{
+    height: 250px;
+    width: 150px;
+    border-radius: 100px;
+    border: solid;
+    border-color: #00ADB5;
+    transition-property: all;
+    transition-duration: 0.5s;
+    display: block;
+    margin:  0 auto;
+}
+
+.pfp:hover{
+    height: 500px;
+    width: 300px;
+    border-radius: 0px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    display: block;
+}
+
+.emailico{
+    height: 30%;
+    width: 30%;
+    transition-property: all;
+    transition-duration: 0.5s;
+    position: absolute;
+    padding-left: 10%;
+}
+
+.emailico:hover{
+    filter: contrast(400%);
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.exp{
+    background-color: #393E46;
+    padding-left: 10px;
+    margin: 100px 100px 0px auto;
+    width: 50%;
+    font-size: 25px;
+    line-height: 1.5;
+    padding-bottom: 50px;
+}
+
+.exp h2{
+    color: #00ADB5;
+    font-size: 81px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.expico{
+    transition-property: all;
+    transition-duration: 0.5s;
+    width: 30%;
+    position: absolute;
+    margin-left: -35%;
+    margin-top: 9%;
+    }
+
+.expico:hover{
+    filter: invert(100%);
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.expback{
+    background-color: #393E46;
+
+
+}
+.exp p{
+    margin-bottom: 0px;
+}
+
+
+
+.Education{
+    background-color: #222831;
+    padding-left: 10px;
+    margin: 0px auto 0px 100px;
+    width: 50%;
+    font-size: 25px;
+    line-height: 1.5;
+
+}
+
+.Education h2{
+    color: #00ADB5;
+    font-size: 81px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 0px;
+}
+
+.eduico{
+    transition-property: all;
+    transition-duration: 0.5s;
+    width: 35%;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 9%;
+
+
+
+
+}
+
+.eduico:hover{
+    filter: invert(100%);
+    transition-property: all;
+    transition-duration: 0.5s;
+
+}
+
+.eduback{
+    background-color: #222831;
+}
+
+
+.Bonusinfo{
+    background-color: #393E46;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+
+
+.contact{
+    position: absolute;
+    left: 80%;
+    font-size: 20px;
+    display: block;
+    line-height: 2;
+
+
+}
+.contact a{
+    color: #00ADB5;
+    transition-property: all;
+    transition-duration: 0.25s;
+}
+.contact a:hover{
+    color: rgb(25, 241, 231);
+    transition-property: all;
+    transition-duration: 0.25s;
+}
+
+/*****************************************************DIVSEND*****************************************/
+/*****************************************************NAME ANIMATION*****************************************/
+#one{
+    animation-name: Colourshift;
+    animation-duration: 4.5s;
+}
+
+#two{
+    animation-name: Colourshift;
+    animation-duration: 4.5s;
+    animation-delay: 0.25s;
+}
+#Three{
+    animation-name: Colourshift;
+    animation-duration: 4.5s;
+    animation-delay: 0.5s;
+}
+#Four{
+    animation-name: Colourshift;
+    animation-duration: 4.5s;
+    animation-delay: 0.75s;
+}
+#Five{
+    animation-name: Colourshift;
+    animation-duration: 4.5s;
+    animation-delay: 1s;
+}
+#Six{
+    animation-name: Colourshift;
+    animation-duration: 4.5s;
+    animation-delay: 1.25s;
+}
+#Seven{
+    animation-name: Colourshift;
+    animation-duration: 4.5s;
+    animation-delay: 1.5s;
+}
+#Eight{
+    animation-name: Colourshift;
+    animation-duration: 4.5s;
+    animation-delay: 1.75s;
+}
+#Nine{
+    animation-name: Colourshift;
+    animation-duration: 4.5s;
+    animation-delay: 2s;
+}
+#Ten{
+    animation-name: Colourshift;
+    animation-duration: 4.5s;
+    animation-delay: 2.25s;
+}
+#Eleven{
+    animation-name: Colourshift;
+    animation-duration: 4.5s;
+    animation-delay: 2.5s;
+}
+#Twelve{
+    animation-name: Colourshift;
+    animation-duration: 4.5s;
+    animation-delay: 2.75s;
+}
+#Thirteen{
+    animation-name: Colourshift;
+    animation-duration: 4.5s;
+    animation-delay: 3s;
+}
+
+@keyframes Colourshift {
+    0%{
+        color: #EEEEEE;
+    }
+
+    25%{
+        color: #00ADB5;
+    }
+
+    50%{
+        color: #00ADB5;
+    }
+
+    75%{
+        color: #00ADB5;
+    }
+
+    100%
+    {
+        color: #EEEEEE;
+    }
+    
+}
+/*****************************************************NAME ANIMATION END*************************************/
