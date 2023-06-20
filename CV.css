@@ -73,6 +73,17 @@ h1{
     padding-bottom: 50px;
 }
 
+.exp a{
+    color: #00ADB5;
+    transition-property: all;
+    transition-duration: 0.25s;
+}
+.exp a:hover{
+    color: rgb(25, 241, 231);
+    transition-property: all;
+    transition-duration: 0.25s;
+}
+
 .exp h2{
     color: #00ADB5;
     font-size: 81px;
@@ -115,6 +126,16 @@ h1{
     line-height: 1.5;
 
 }
+.Education a{
+    color: #00ADB5;
+    transition-property: all;
+    transition-duration: 0.25s;
+}
+.Education a:hover{
+    color: rgb(25, 241, 231);
+    transition-property: all;
+    transition-duration: 0.25s;
+}
 
 .Education h2{
     color: #00ADB5;
@@ -154,6 +175,8 @@ h1{
     background-color: #393E46;
     padding-left: 10px;
     padding-bottom: 20px;
+    display: flex;
+    gap: 00px;
 }
 
 
@@ -178,6 +201,28 @@ h1{
     transition-duration: 0.25s;
 }
 
+.skills{
+    padding-left: 10px;
+    margin: 0px auto 0px 100px;
+    width: 50%;
+    font-size: 25px;
+    line-height: 1.5;
+}
+.Languages{
+    padding-left: 10px;
+    margin: 0px auto 0px 100px;
+    width: 50%;
+    font-size: 25px;
+    line-height: 1.5;
+}
+.Hobbies{
+
+    padding-left: 10px;
+    margin: 0px auto 0px 100px;
+    width: 50%;
+    font-size: 25px;
+    line-height: 1.5;
+}
 /*****************************************************DIVSEND*****************************************/
 /*****************************************************NAME ANIMATION*****************************************/
 #one{
